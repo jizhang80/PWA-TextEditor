@@ -42,3 +42,24 @@ registerRoute(
     ],
   })
 );
+
+// registerRoute(
+//   ({ request }) => {
+//     console.log(request);
+//     return (
+//       // CSS
+//       request.destination === 'style' ||
+//       // JavaScript
+//       request.destination === 'script'
+//     );
+//   },
+//   new StaleWhileRevalidate({
+//     cacheName: 'static-resources',
+//     plugins: [
+//       new CacheableResponsePlugin({
+//         statuses: [0, 200],
+//       }),
+//     ],
+//   })
+// );
+
