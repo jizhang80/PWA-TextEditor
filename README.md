@@ -1,7 +1,10 @@
 # Progressive Web Applications (PWA): Text Editor
 
 ## Deployed application
-<https://pwa-texteditor-kzhj.onrender.com>
+<https://pwa-texteditor-m9nd.onrender.com>
+
+## Screenshot
+![text editor](./asset/screenshot.jpg)
 
 ## The Task
 
