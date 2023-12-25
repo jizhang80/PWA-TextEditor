@@ -31,7 +31,6 @@ export const getDb = async () => {
   const store = tx.objectStore('jate');
   const request = store.get(1);
   const result = await request;
-  console.log('result.value', result.content);
   if (result) {
     return result.content;
   } else {
